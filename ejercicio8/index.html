@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Condicional Renderizado</title>
+</head>
+<body>
+  <div id="app">
+    <button @click="toggleCondition">Cambiar Condición</button>
+    <p v-if="condition"> la condición a cambiado y es verdadera.</p>
+    <p v-else>la condición es falsa.</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
